@@ -1,0 +1,12 @@
+2nd day:
+list,
+shortcut:
+-alt and press down/up  to move lines
+-hold alt+shift to copy lines
+
+to add links
+multiple select
+./-parent
+../parent ko parent access
+
+rem=parent ctch garxa
