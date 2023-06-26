@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      h2,
+      h2,
+      hr {
+        margin-top: 16px;
+        margin-bottom: 16px;
+      } /*or selector*/
+      /* h2{
+            margin-top: 16px;
+            margin-bottom: 16px;
+        }
+        hr{
+            margin-top: 16px;
+            margin-bottom: 16px;
+        }
+        ul{
+            padding-left: 32px;
+        } */
+      p {
+        padding: 16px;
+      }
+      .box {
+        border: 10px solid;
+
+        width: 375px;
+        padding: 20px;
+        box-sizing: border-box;
+        margin: 20px;
+        color: red;
+      }
+      .box p {
+        color: red;
+      }
+      .box .text-red {
+        color: red;
+      }
+      /* body{
+             margin:0;
+            /border:1px  solid; 
+         
+    } 
+    .small{
+        width:200px;
+
+    } */
+      .small {
+        width: 200px;
+      }
+      .card {
+        border: 1px solid;
+        margin-top: 16px;
+        margin: 16px 8px;
+      }
+      a .active{
+        color: red;
+      }
+
+      .card {
+        border: 1px solid;
+        margin: 16px 8px 16px 8px;
+        width:300px;
+        height: 300px;
+      }
+
+    .card h2{
+      color: red;
+     }
+     a{
+      text-decoration: none;
+     }
+    .underline{
+      text-decoration: underline;
+    }
+    
+     .no-underline{
+      text-decoration: none;
+     }
+     .card.active{
+      border: 1px solid red;
+      box-shadow:4px 2px 12px ;
+     }
+     /*pseudo class*/
+     header a:hover{
+      color: red;
+     }
+     .card:hover{
+      border: 1px solid red;
+      box-shadow:4px 2px 12px ;
+     }
+
+     
+
+    
+    </style>
+  </head>
+  <body>
+    <header>
+      <a href="https://www.google.com" target="blank">google</a>
+      <a href="https://www.google.com" target="blank">github</a>
+      <a href="https://www.google.com" target="blank">youtube</a>
+      <a href="#" class="">home</a>
+      <a href="./courses/python.html">python</a>
+      <a href="./courses/upcoming courses/qa.html">QA</a>
+      <a href="./css/combined-selectors.html" ><span class="active">
+        <span class="underline">combined</span>
+       <span class="no-underline">selectors</span> </a>
+      
+      
+      <a  href="./courses/About us.html">About us</a>
+    </header>
+
+    <div class="card">
+      <h2>$100</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
+        sequi, perferendis fugit alias facilis modi veritatis accusamus cumque
+        distinctio quas doloremque nisi laboriosam eius nesciunt quos. Sequi
+        tempore error quam?
+      </p>
+    </div>
+
+    <div class="card active">
+      <h2>$50</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
+        sequi, perferendis fugit alias facilis modi veritatis accusamus cumque
+        distinctio quas doloremque nisi laboriosam eius nesciunt quos. Sequi
+        tempore error quam?
+      </p>
+    </div>
+    <div class="card">
+      <h2>$25</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
+        sequi, perferendis fugit alias facilis modi veritatis accusamus cumque
+        distinctio quas doloremque nisi laboriosam eius nesciunt quos. Sequi
+        tempore error quam?
+      </p>
+    </div>
+    <h2>selectors types</h2>
+    <ul>
+      <li>
+        <a href="https://www....">universal</a></li>
+      <li>id</li>
+      <li>class</li>
+      <li>element/tag</li>
+    </ul>
+    <hr />
+
+    <h2>combined-selectors types</h2>
+    <ul>
+      <li> descendent</li>
+      <li>or</li>
+      <li>attribute</li>
+      <li>general selector</li>
+      <li>adjacent selectors</li>
+    </ul>
+
+    <hr />
+    <h2>box sizing : border-box</h2>
+    <div class="box">
+      <p class="text-red">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi iste sed
+        expedita voluptas voluptate ut tempore culpa possimus modi saepe. Quam
+        inventore ipsum officiis nihil, sed eos perferendis eius cum?
+      </p>
+      <p class="text-red">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+        reiciendis beatae, ullam quod eos libero laboriosam? Fugit, expedita eum
+        ut laboriosam neque error cupiditate tenetur praesentium, eaque quos ex
+        aut.
+      </p>
+    </div>
+    <hr />
+
+    <div class="box small">
+      <p>small box</p>
+    </div>
+
+    <hr />
+    <p class="text-red">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi tenetur
+      hic at. Aliquam repudiandae et ad fugit, impedit sint. Quibusdam eos
+      dolorem nobis! Ducimus libero eaque suscipit voluptatum aperiam est.
+    </p>
+    <div>
+      <hr />
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis velit
+        incidunt officia voluptatem ex. Rerum maxime, possimus fugiat dolores
+        sequi illo, magnam iure, voluptatem autem cupiditate inventore nisi nemo
+        exercitationem!
+      </p>
+    </div>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
+      corporis illo neque laboriosam, aliquam magnam cupiditate veritatis
+      repellendus possimus quia quasi eum quis et odit quas modi voluptatem?
+      Assumenda, odit.
+    </p>
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id optio
+      quisquam accusantium molestias, saepe sed blanditiis facilis quas
+      praesentium quis possimus illo exercitationem doloribus magnam provident
+      iure, culpa deleniti qui.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae fugit
+      magnam iste corporis modi quisquam sint officiis labore dicta, aspernatur
+      dolore expedita necessitatibus voluptatem quis accusamus inventore
+      doloribus omnis debitis.
+    </p>
+  </body>
+</html>

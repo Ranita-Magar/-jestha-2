@@ -1,0 +1,86 @@
+/*external css*/
+/* syntax
+  <selectors>{
+    <css-property> :<property-value;
+    <css-property> :<property -value>;
+  }
+  selectors
+  -element/tag selector
+  eg:body ,h1,p,img,table
+*/
+/*
+first link this css file to html file
+<link rel="stylesheet" href="./css/styles.css">
+*/
+body {
+    background-color: black;
+    color: white
+}
+
+a {
+    color: orange
+}
+
+table {
+    border: 1px solid;
+    border-collapse: collapse;
+
+}
+
+th,
+td {
+    border: 1px solid red;
+}
+
+h2 {
+    color: rgb(255, 0, 0);
+    color: #F53838;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    margin-left: 20px
+}
+
+p {
+    text-align: justify;
+    border: 1px solid;
+    padding: 16px;
+    margin: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color:peru;
+}
+
+.text-total {
+    text-align: center;
+    font-weight: bold;
+}
+
+.text-red {
+    color: red;
+}
+
+.text-xl {
+    font-size: 20px;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.box {
+    border: #F53838;
+    border: 1px solid;
+    height: 8px;
+    width: 7px;
+}
+.active{
+    color:palegreenss;
+    text-decoration:none ;
+    font-size: 22px;
+    font-weight: bold;
+}

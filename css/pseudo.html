@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      .boxes {
+        width: 50%;
+        background-color: blueviolet;
+        /* padding: 40px; */
+      }
+
+      .box {
+        width: 50%;
+        height: 100px;
+        border: 1px solid;
+        color: white;
+        padding: 50%;
+      }
+      /* .red{
+            background-color: red;
+        }
+        .blue{
+            background-color:blue;
+        }
+        .green{
+            background-color:green;
+        } */
+      div:first-child {
+        background-color: red;
+      }
+
+      /* body :last-child {
+            background-color:green;
+        } */
+      div:nth-child(2) {
+        background-color: green;
+      }
+      div:nth-child(3) {
+        background-color: blue;
+      }
+      div:nth-child(4) {
+        background-color: pink;
+      }
+      /* section p:not(.plain){
+        color: red;
+     } */
+      section p:not(:first-child) {
+        color: red;
+      }
+      /* input{
+        border: 1px salmon;
+     } */
+      input:focus {
+        border: 10px solid red;
+        outline: none;
+      }
+      button:active {
+        background-color: red;
+      }
+      a:active {
+        color: orange;
+      }
+      /* 1em=24px */
+      /* 1rem= 16px*/
+      .big-text{
+        font-size: 24px;
+      }
+      section p {
+        font-size: 2em;
+        font-size: 2rem;
+      }
+      
+    </style>
+  </head>
+  <nav>
+    <a href="#">home</a>
+    <a href="#">about</a>
+    <a href="#">contacts</a>
+  </nav>
+  <body>
+    <!-- <div class="box red" >box-1</div>
+    <div class="box blue" >box-2</div>
+    <div class="box green" >box-3</div>
+     -->
+    <h1>pseudo-classes</h1>
+
+    <section class="boxes">
+      <div class="box">box-1</div>
+      <div class="box">box-2</div>
+      <div class="box">box-3</div>
+      <div class="box">box-4</div>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
+      blanditiis, voluptatem iusto quisquam neque deleniti omnis amet placeat
+      tempore quo natus maiores, aliquam possimus necessitatibus? Aliquid
+      reprehenderit labore consequuntur impedit.
+    </p>
+    </section >
+    <section class="big-text" >
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+        architecto necessitatibus consectetur assumenda temporibus a dolorum
+        asperiores pariatur magnam, incidunt voluptatum dicta quod velit
+        molestias dolore, nulla ea, blanditiis odit.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut provident
+        maxime expedita repudiandae corrupti modi sed quam, voluptates, harum
+        neque nihil dolor enim iste dolorum quae, voluptatem excepturi quia.
+        Alias?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quae
+        veritatis corporis? Aut amet quisquam maiores rerum natus veritatis,
+        suscipit tempora, id ad aperiam est! Assumenda voluptatem unde nisi
+        ullam.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+        distinctio quaerat perspiciatis fugiat, natus cupiditate excepturi autem
+        hic provident sequi voluptatem facere repellat pariatur, necessitatibus
+        eveniet! Eligendi cupiditate sed alias!
+      </p>
+    </section>
+    <form>
+      <input type="text" />
+      <input type="text" />
+      <button>submit</button>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* 0 1 0*/
+      .box {
+        height: 100px;
+        width: 100px;
+        border: 1px solid;
+        font-size: 30px;
+      }
+      /*100*/
+      /* #black-box {
+        background-color: black;
+      } */
+      body.div.box {
+        background-color: cyan;
+      }
+      div.box {
+        background-color: greenyellow;
+      }
+      /*010*/
+      .box {
+        background-color: red;
+      }
+      /*001*/
+      div {
+        background-color: teal;
+        font-size: 48px;
+        text-transform: uppercase;
+      }
+      div.box{
+        background-color: red !important;
+      }
+      .box{
+        background-color: orange !important;
+      }
+
+      /* .bg-red{
+            background-color: red;;
+        }
+        .bg-green{
+            background-color: green;
+        }
+        .bg-purple{
+            background-color: purple;
+        }
+        .bg-red{
+            background-color:beige;
+        }
+        div.bg-red{
+            background-color:red;
+        }
+        .bg-red{
+            background-color:white;
+            }
+            .bg-black{
+                background-color: black; */
+
+      body div#orange-box.orange-box {
+        background-color: orange !important;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="https://www.google.com" target="blank">google</a>
+    <a href="https://www.google.com" target="blank">github</a>
+    <a href="https://www.google.com" target="blank">youtube</a>
+    <a href="#" class="active">home</a>
+    <a href="../courses/python.html">python</a>
+    <a href="./courses/upcoming courses/qa.html">QA</a>
+    <a href="./combined-selectors.html">combined-selectors</a>
+    <a href="../courses/About us.html">About us</a>
+    <h1>specificity score//css priority</h1>
+    <p>important>inline-css>id>class>tag/element</p>
+
+    <div class="box orange" id="orange-box" style="background: blanchedalmond">
+      box1
+    </div>
+    <!-- <div class="box bg-green">box2</div> -->
+    <!-- <div class="box bg-purple">box3</div> -->
+  </body>
+</html>
