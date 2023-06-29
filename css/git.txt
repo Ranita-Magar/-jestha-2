@@ -23,3 +23,11 @@ branches
 TO CREATE NEW BRANCH:
   git checkout -b<BRANCH NAME>
   eg:git checkout -b auth
+
+  to switch beteen branches
+    gut checkout <existing branh name>
+    eg:git checkout master
+    eg:git checkout auth
+  to merge branches
+    eg:merge>branch name>
+    eg:git merge auth// use other branch than auth  
