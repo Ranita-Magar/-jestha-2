@@ -9,4 +9,4 @@ multiple select
 ./-parent
 ../parent ko parent access
 
-rem=parent ctch garxa
+rem=parent catch garxa
